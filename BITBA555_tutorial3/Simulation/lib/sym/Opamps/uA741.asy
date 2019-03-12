@@ -1,0 +1,32 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -48 50 -48 -48
+LINE Normal 64 0 -48 50
+LINE Normal -48 -48 64 0
+LINE Normal 1 -47 1 -35
+LINE Normal 0 44 0 34
+LINE Normal -64 -32 -46 -32
+LINE Normal -66 32 -47 32
+LINE Normal -32 -15 -32 -30
+LINE Normal -25 -22 -40 -22
+LINE Normal -24 31 -36 31
+WINDOW 0 0 -56 Bottom 2
+WINDOW 3 0 56 Top 2
+SYMATTR Prefix X
+SYMATTR Value uA741
+SYMATTR ModelFile uA741.sub
+PIN -64 -32 RIGHT 8
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN -64 32 RIGHT 8
+PINATTR PinName 2
+PINATTR SpiceOrder 2
+PIN 0 -48 RIGHT 8
+PINATTR PinName 3
+PINATTR SpiceOrder 3
+PIN 0 48 RIGHT 8
+PINATTR PinName 4
+PINATTR SpiceOrder 4
+PIN 64 0 LEFT 8
+PINATTR PinName 5
+PINATTR SpiceOrder 5

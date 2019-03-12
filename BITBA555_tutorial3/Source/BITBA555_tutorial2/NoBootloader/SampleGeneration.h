@@ -2,6 +2,7 @@
 
 #define INITIAL_WAVE_FREQUENCY 100 // one cycle of each waveform will be stored in the buffers will at this frequency in Hz
 #define INITIAL_WAVE_TABLE_SIZE (SAMPLE_RATE / INITIAL_WAVE_FREQUENCY) // the waveforms stored in the buffers will need arrays of this size
+#define M_PI 3.14159265359  // pi, though some of the end may be truncated
 
 // correct floating point increment for each musical frequency (freq / sample rate gives us cycles per sample
 // but then we have to multiply by the initial wave table size since 1 cycle is now (sample rate / initial wave frequency) samples
@@ -119,7 +120,7 @@ uint8_t* sineWave = &waveBuffer[0]; // a pointer to the beginning of the sine wa
 uint8_t* triangleWave = &waveBuffer[INITIAL_WAVE_TABLE_SIZE]; // a pointer to the beginning of the triangle waveform
 uint8_t* squareWave = &waveBuffer[INITIAL_WAVE_TABLE_SIZE * 2]; // a pointer to the beginning of the square waveform
 uint8_t* sawtoothWave = &waveBuffer[INITIAL_WAVE_TABLE_SIZE * 3]; // a pointer to the beginning of the sawtooth waveform
-uint8_t* currentWave = sineWave;
+uint8_t* currentWave;
 
 // sine wave y(t) = Asin(2piFt + p) : A = amplitude, F = frequency, t = time, p = phase
 void generateSine ()
