@@ -6,3 +6,6 @@ https://www.youtube.com/watch?v=HbYsLG5ng4g
 
 # Episode 001 - BITBA555 Peripheral Setup
 https://www.youtube.com/watch?v=4lw_u7kjT1c
+
+# Episode 002 - BITBA555 Digital Oscillator Finished
+https://www.youtube.com/watch?v=C3nDFvrVApo
