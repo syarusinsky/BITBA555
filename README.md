@@ -9,3 +9,6 @@ https://www.youtube.com/watch?v=4lw_u7kjT1c
 
 # Episode 002 - BITBA555 Digital Oscillator Finished
 https://www.youtube.com/watch?v=C3nDFvrVApo
+
+# Episode 003 - BITBA555 Analog Filter and Power Supply
+https://www.youtube.com/watch?v=efnBC_zZduA
