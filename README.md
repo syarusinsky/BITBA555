@@ -12,3 +12,6 @@ https://www.youtube.com/watch?v=C3nDFvrVApo
 
 # Episode 003 - BITBA555 Analog Filter and Power Supply
 https://www.youtube.com/watch?v=efnBC_zZduA
+
+# Episode 004 - BITA555 Analog Envelope Generator and Amplifier
+https://www.youtube.com/watch?v=gevD3INR1kk
