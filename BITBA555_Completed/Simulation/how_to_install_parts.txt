@@ -1,0 +1,3 @@
+The "lib" folder contains parts that are used in the simulation files. To install these parts, go to your "Documents/LTSpiceXVII" directory (or
+wherever else LTSpice stores your projects), then copy the files into their associated directories under the "Documents/LTSpiceXVII/lib" directory.
+The lib directory in this folder is laid out exactly like the one in your project directory so this should be straightforward.
