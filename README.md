@@ -1,10 +1,11 @@
 # BITBA555
-BITBA555 is an open source hybrid analog/digital monophonic synthesizer with a digital oscillator section and analog filter, amplifier, and envelope generator sections.
+BITBA555 is an open source/open hardware hybrid analog/digital monophonic synthesizer with a digital oscillator section and analog filter, amplifier, and envelope generator sections. It also features a fully 3D printable enclosure with snap-fit so that no additional hardware is necessary.
 
 The ethos of BITBA555 is to be as close to 100% open source and DIY as possible. All code versions, hardware schematic versions, simulation files, board files, and even 3D printed enclosure designs will be shared on this page. In order to make digesting this information more accessible, a YouTube tutorial series about the design process has been created as well.
 
 ![Schematic](/BITBA555_tutorial5/Hardware/BITBA555_tutorial5_schem.png)
 ![DIY PCB2](/PCB_2.JPG)
+![3D Printed Enclosure](/EnclosureCollage.JPG)
 
 ### Episode 000 - Introduction
 https://www.youtube.com/watch?v=HbYsLG5ng4g
@@ -24,6 +25,9 @@ https://www.youtube.com/watch?v=gevD3INR1kk
 ### Episode 005 - BITBA555 Board Layout and Fabrication
 https://www.youtube.com/watch?v=fseVMmLj8Y8
 
+### Episode 007 - BITBA555 Enclosure Design
+https://www.youtube.com/watch?v=aarRZwyo6pU
+
 ## BITBA555 Features
 * Digital oscillator section with sine, triangle, square, and sawtooth wave output
   * Dynamic programming techniques utilized to allow for underpowered ATmega328p to oscillate efficiently
@@ -33,5 +37,6 @@ https://www.youtube.com/watch?v=fseVMmLj8Y8
   * Filter self oscillates at max resonance
 * Analog OTA-based amplifier section with gain control
 * Analog ADSR envelope generator 
+* Fully 3D printed enclosure
 
 To hear BITBA555 in a song: https://soundcloud.com/theroomdisconnect/bitbac1d/s-NRedz
